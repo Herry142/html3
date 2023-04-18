@@ -42,7 +42,11 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 900;
 }
 .nav_el{
-    color: #212121
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .nav_el:hover,
 .nav_el:focus{
@@ -60,12 +64,24 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.03em;
     cursor: pointer
 }
-
+.header_link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
 .header_link:hover,
 .header_link:focus,
 .footer_link:hover,
 .footer_link:focus{
     color: #2196F3;
+}
+.footer_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .remark_main{
@@ -79,6 +95,10 @@ h1,h2,h3,h4,h5,h6{
 
 .remark_txt{
     color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
 }
 
 .work_title{
@@ -160,4 +180,8 @@ h1,h2,h3,h4,h5,h6{
 
 .white_color{
     color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
