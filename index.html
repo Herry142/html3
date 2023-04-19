@@ -10,56 +10,58 @@
 	<title>DZ</title>
 </head>
 <body class="body">
-	<div class="header">
-	<div>
-	<span class="logoBlue">Web</span>
-	<span class="logoBlack">Studio</span>
-	</div>
-	<nav>
-	<ul class="navigation_container">
-		<li><a class="nav_el active" href="">Студія</a></li>
-		<li><a class="nav_el" href="./studio.html">Портфоліо</a></li>
-		<li><a class="nav_el" href="">Контакти</a></li>
-	</ul>
-	</nav>
-	<ul class="header-address__container">
-	<li><a class="header_link" href="">info@devstudio.com</a></li>
-	<li><a class="header_link" href="">+38 096 111 11 11</a></li>
-	</ul>
-	</div>
+	<header class="header_container">
+		<div class="header">
+		<div class="logo">
+		<span class="logoBlue">Web</span>
+		<span class="logoBlack">Studio</span>
+		</div>
+		<nav>
+		<ul class="navigation_container">
+			<li class="el"><a class="nav_el active" href="">Студія</a></li>
+			<li class="el"><a class="nav_el" href="./studio.html">Портфоліо</a></li>
+			<li class="el"><a class="nav_el" href="">Контакти</a></li>
+		</ul>
+		</nav>
+		<ul class="header-address__container">
+		<li class="el"><a class="header_link email" href="">info@devstudio.com</a></li>
+		<li class="el"><a class="header_link namer" href="">+38 096 111 11 11</a></li>
+		</ul>
+		</div>
+	</header>
 	<main>
-	<div>
-		<h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
+	<div class="main_photo">
+		<h1 class="hero_title">Ефективні рішення для<br> вашого бізнесу</h1>
 		<button class="button_main" type="button">Замовити послугу</button>
 	</div>
 	<div class="remark_container">
 		<h2 class="remark_title">Зауваження</h2>
-		<ul>
-			<li><h3 class="remark_main">УВАГА ДО ДЕТАЛЕЙ</h3>
+		<ul class="ul_remark">
+			<li class="remark"><h3 class="remark_main">УВАГА ДО ДЕТАЛЕЙ</h3>
 				<p class="remark_txt">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
 			</li>
-			<li><h3 class="remark_main">ПУНКТУАЛЬНІСТЬ</h3>
+			<li class="remark"><h3 class="remark_main">ПУНКТУАЛЬНІСТЬ</h3>
 				<p class="remark_txt">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
 			</li>
-			<li><h3 class="remark_main">ПЛАНУВАННЯ</h3>
+			<li class="remark"><h3 class="remark_main">ПЛАНУВАННЯ</h3>
 				<p class="remark_txt">Так само консультація з широким активом значною мірою зумовлює. </p>
 			</li>
-			<li><h3 class="remark_main">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+			<li class="remark"><h3 class="remark_main">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
 				<p class="remark_txt">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
 			</li>
 		</ul>
 	</div>
 	<div class="work_container">
 		<h2 class="work_title">Чим ми займаємося</h2>
-		<ul>
-		<li>
-			<img src="IMG/box 1.jpg" alt="Чим ми займаємося картинка 1" width="370" height="294">
+		<ul class="ul_work">
+		<li class="el">
+			<img class="img_work" src="IMG/box 1.jpg" alt="Чим ми займаємося картинка 1" width="370" height="294">
 		</li>
-		<li>
-			<img src="IMG/box 2.jpg" alt="Чим ми займаємося картинка 2" width="370" height="294">
+		<li class="el">
+			<img class="img_work" src="IMG/box 2.jpg" alt="Чим ми займаємося картинка 2" width="370" height="294">
 		</li>
-		<li>
-			<img src="IMG/box 3.jpg" alt="Чим ми займаємося картинка 3" width="370" height="294">
+		<li class="el">
+			<img class="img_work" src="IMG/box 3.jpg" alt="Чим ми займаємося картинка 3" width="370" height="294">
 		</li>
 		</ul>	
 	</div>
@@ -67,23 +69,23 @@
 		<div>
 	 		<h2 class="work_title">Наша команда</h2>
 		</div>
-	 	<ul>
-	 		<li>
+	 	<ul class="ul_card">
+	 		<li class="card">
 	 			<img src="IMG/img1.jpg" alt="Ігор Дем'яненко" width="270" height="260">
 	 			<h3 class="team_name">Ігор Дем'яненко</h3>
 	 			<p class="team_profession">Product Designer</p>
 	 		</li>
-	 		<li>
+	 		<li class="card">
 	 			<img src="IMG/img2.jpg" alt="Ольга Рєпіна" width="270" height="260">
 	 			<h3 class="team_name">Ольга Рєпіна</h3>
 	 			<p class="team_profession">Frontend Developer</p>
 	 		</li>
-	 		<li>
+	 		<li class="card">
 	 			<img src="IMG/img3.jpg" alt="Микола Тарасов" width="270" height="260">
 	 			<h3 class="team_name">Микола Тарасов</h3>
 	 			<p class="team_profession">Marketing</p>
 	 		</li>
-	 		<li>
+	 		<li class="card">
 	 			<img src="IMG/img4.jpg" alt="Михайло Єрмаков" width="270" height="260">
 	 			<h3 class="team_name">Михайло Єрмаков</h3>
 	 			<p class="team_profession">UI Designer</p>
@@ -92,15 +94,17 @@
 	 </div>
 	</main>
 	 <footer>
-		<div>
-		<span class="logoBlue">Web</span>
-		<span class="logoBlack">Studio</span>
+		<div class="container_footer">
+			<div class="logo">
+			<span class="logoBlue">Web</span>
+			<span class="logoBlack">Studio</span>
+			</div>
+			<ul class="footer-address__container">
+				<li class="el adres"><a class="footer_link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+				<li class="el email_footer"><a class="footer_link white_color" href="">info@devstudio.com</a></li>
+				<li class="el numer_footer"><a class="footer_link white_color" href="">+38 096 111 11 11</a></li>
+			</ul>
 		</div>
-		<ul class="footer-address__container">
-	 		<li class="el"><a class="footer_link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-			<li class="el"><a class="footer_link white_color" href="">info@devstudio.com</a></li>
-			<li class="el"><a class="footer_link white_color" href="">+38 096 111 11 11</a></li>
-		</ul>
 	 </footer>
 </body>
 </html>

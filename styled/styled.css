@@ -5,10 +5,18 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
+    margin: 0px;
+    padding: 0px;
 }
+
 ul,a{
     list-style: none;
     text-decoration: none;
+}
+
+.center{
+    width: 1200px+30px;
+    text-align: center;
 }
 
 .logoBlue{
@@ -29,6 +37,12 @@ ul,a{
     letter-spacing: 0.03em;
 }
 
+.logo{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
 h1,h2,h3,h4,h5,h6{
     color: #212121
 }
@@ -47,6 +61,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
 }
 .nav_el:hover,
 .nav_el:focus{
@@ -64,6 +82,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.03em;
     cursor: pointer
 }
+
 .header_link{
     font-weight: 500;
     font-size: 14px;
@@ -77,6 +96,43 @@ h1,h2,h3,h4,h5,h6{
 .footer_link:focus{
     color: #2196F3;
 }
+
+.header-address__container>.el{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.email{
+    margin-left: 320px;
+    padding-right: 50px;
+}
+
+.header-address__container{
+    display: flex;
+}
+
+.header{
+    width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.navigation_container{
+    display: flex;
+}
+
+.nav_el + .nav_el{
+    margin-left: 50px;
+}
+
+.main_photo{
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
 .footer_link{
     font-weight: 400;
     font-size: 14px;
@@ -91,7 +147,10 @@ h1,h2,h3,h4,h5,h6{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
+
+         
 
 .remark_txt{
     color: #757575;
@@ -101,12 +160,31 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.03em; 
 }
 
+.ul_remark{
+    display: flex;
+    justify-content: space-between;
+}
+
 .work_title{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team_container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.ul_card{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .team_title{
@@ -121,7 +199,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    text-align: center;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team_profession{
@@ -129,6 +210,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .button_main{
@@ -137,16 +219,50 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:  none;
+    align-items: center;
+    margin-top: 30px;
 }
+
+.remark_container{
+    width: 1200px;
+    height: 98px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
+.remark{
+    height: 98px;
+    width: 270px;
+    display: inline-block;
+}
+
+.work_container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+}
+
+.ul_work{
+    display: flex;
+}
+
+.ul_work .el + .el{
+    margin-left: 50px;
+}
+
+.filter{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
 .button_filter{
     padding: 6px 22px;
     cursor: pointer;
@@ -158,6 +274,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 4px;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 .button_filter:hover{
     background-color: #2196F3;
@@ -169,7 +286,19 @@ h1,h2,h3,h4,h5,h6{
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
+
+.card{
+    background: #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    height: 368px;
+    width: 270px;
+}
+
 .card_txt{
     font-weight: 400;
     font-size: 16px;
@@ -184,4 +313,36 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+}
+
+.container_footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card_filter{
+    border: 1px solid #EEEEEE;
+    height: 404px;
+    width: 370px;
+    margin-right: 27px;
+    margin-bottom: 30px;
+}
+.container_img{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+.ul_filter{
+    display: flex;
+    justify-content: center;
+}
+
+.el_button{
+    margin-right: 8px;
+}
+
+.container_card{
+    display: flex;
+    flex-wrap: wrap;
 }
