@@ -36,8 +36,7 @@ ul,a{
 }
 
 .logo{
-    padding-top: 24px;
-    padding-bottom: 25px;
+    margin: 24px 25px 0px 0px;
     margin-right: 93px;
 }
 
@@ -59,10 +58,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-right: 50px;
 }
 .nav_el:hover,
 .nav_el:focus{
@@ -81,6 +76,15 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer
 }
 
+.header_section{
+    display: flex;
+
+}
+
+.header_section{
+    
+}
+
 .header_link{
     font-weight: 500;
     font-size: 14px;
@@ -96,34 +100,17 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .header-address__container>.el{
-    display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
 }
 
 .email{
-    margin-left: 320px;
-    padding-right: 50px;
+
 }
 
 .header-address__container{
-    display: flex;
+
 }
 
-.header{
-    width: 1200px;
-    display: flex;
-    margin: 0px auto;
-    align-items: center;
-}
-
-.navigation_container{
-    display: flex;
-}
-
-.nav_el + .nav_el{
-    margin-left: 50px;
-}
 
 .hero_section{
     background-color: #2F303A;
