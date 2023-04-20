@@ -35,13 +35,20 @@ ul,a{
     letter-spacing: 0.03em;
 }
 
-.logo{
-    margin: 24px 25px 0px 0px;
-    margin-right: 93px;
-}
-
 h1,h2,h3,h4,h5,h6{
     color: #212121
+}
+
+.nav_container{
+    margin-left: 93px;
+}
+
+.navigation_container{
+    display: flex;
+}
+
+.navigation_container .el + .el{
+    margin-left: 50px;
 }
 
 .hero_title{
@@ -78,11 +85,14 @@ h1,h2,h3,h4,h5,h6{
 
 .header_section{
     display: flex;
-
+    justify-content: center;
 }
 
-.header_section{
-    
+.header_container{
+    width: 1200px;
+    margin: 24px 15px 25px 15px;
+    display: flex;
+    align-items: center;
 }
 
 .header_link{
@@ -99,18 +109,14 @@ h1,h2,h3,h4,h5,h6{
     color: #2196F3;
 }
 
-.header-address__container>.el{
-
+.header-address__container{
+    display: flex;
+    margin-left: 344px;
 }
 
 .email{
-
+    margin-right: 50px;
 }
-
-.header-address__container{
-
-}
-
 
 .hero_section{
     background-color: #2F303A;
@@ -336,4 +342,5 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     flex-wrap: wrap;
 }
+
 
